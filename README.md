@@ -4,6 +4,8 @@ A CLI that crawls the [Hacker News](https://news.ycombinator.com/) front page, f
 
 > [PROCESS.md](PROCESS.md) covers why the solution looks like this, which tools were chosen and why, and the workflow that produced it.
 
+> Check the `spike` branch if you want to see the first fast, 'ugly' implementation to validate the approach.
+
 ## Requirements
 
 - Node.js 22 or newer.
