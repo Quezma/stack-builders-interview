@@ -1,0 +1,27 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Hacker News crawler CLI - Stack Builders interview",
+  "type": "module",
+  "bin": {
+    "web-crawler": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/cli.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:mutation": "stryker run"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^9.6.1",
+    "@stryker-mutator/vitest-runner": "^9.6.1",
+    "vitest": "^4.1.10"
+  }
+}
