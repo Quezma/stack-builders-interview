@@ -2,6 +2,8 @@
 
 A CLI that crawls the [Hacker News](https://news.ycombinator.com/) front page, filters its entries and keeps every run in SQLite.
 
+> [PROCESS.md](PROCESS.md) covers why the solution looks like this, which tools were chosen and why, and the workflow that produced it.
+
 ## Requirements
 
 - Node.js 22 or newer.
